@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
         <Header />
         <Navigation2 />
         {children}
-        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+        
         </body>
     </html>
   )
