@@ -30,29 +30,13 @@ export default function Home() {
   return (
     <main>
       <div className={styles.social}>
-        <a class="p-3 text-success-emphasis bg-success-subtle border border-success-subtle rounded-3">
+        <a className="p-3 text-success-emphasis bg-success-subtle border border-success-subtle rounded-3">
           Whatsapp
-        </a>
-        
-        <a class="p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3">
+        </a>        
+        <a className="p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3">
           Facebook
         </a>
-       {/*  <a>
-        <Image
-          className=""
-          src={whatsapp}
-          alt="whatsapp_mr_halley"
-          style={{ width: "30px", height: "auto" }}
-        />
-        </a> */}
-
-      {/*   <a>
-          <Image
-            src={facebook}
-            alt="facebook_mr_halley"
-            style={{ width: "30px", height: "auto" }}
-          />
-        </a> */}
+       
       </div>
       <div className={styles.main_section}>
         {blog.map((article) => (
@@ -61,9 +45,7 @@ export default function Home() {
               <Image
                 src={`/public/${article.image}`}
                 width={300}
-                height={185}
-                priority
-                
+                height={185}                
                 alt="blog_mr_halley"
               />
               <h2>{article.title}</h2><hr/>
@@ -72,9 +54,7 @@ export default function Home() {
           </article>
         ))}
 
-{/*         <section className={styles.section_img}>
-          <Image src={sectionImg} width={500} height={700} alt="microphone" />
-        </section> */}
+
       </div>
       
       
