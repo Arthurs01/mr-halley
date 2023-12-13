@@ -45,7 +45,8 @@ export default function Home() {
               <Image
                 src={`/public/${article.image}`}
                 width={300}
-                height={185}                
+                height={185}        
+                priority={true}        
                 alt="blog_mr_halley"
               />
               <h2>{article.title}</h2><hr/>
