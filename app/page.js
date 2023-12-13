@@ -1,35 +1,30 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import sectionImg from "../public/micro.jpg";
-import whatsapp from "../public/whatsapp.png";
-import facebook from "../public/face.png";
+
 
 export default function Home() {
   const blog = [
     {
       id: 1,
+      image: "../events.jpg",
       title: "Próximos eventos",
       body: "Enterate de los próximos eventos al instante!",
-      body_content:
-        "Múasdfaasdfasdfasdfasdfsdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfsica versátil a tu alcance",
-      image: "../events.jpg",
+      body_content:"Múasdfaasdfasdfasdfasdfsdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfsica versátil a tu alcance"
     },
     {
       id: 2,
+      image: "../videos.jpg",
       title: "Videos",
       body: "Música versátil a tu alcance",
-      body_content:
-        "Múasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfsica versátil a tu alcance",
-      image: "../videos.jpg",
+      body_content:"Múasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfsica versátil a tu alcance"
     },
 
     {
       id: 3,
+      image: "../historia.jpg",
       title: "Historia",
       body: "La banda versatil comienza en los años 50's al...",
-      body_content:
-        "Múasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfsica versátil a tu alcance",
-      image: "../historia.jpg",
+      body_content:"Múasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfsica versátil a tu alcance"
     },
   ];
   return (
@@ -67,6 +62,8 @@ export default function Home() {
                 src={`/public/${article.image}`}
                 width={300}
                 height={185}
+                priority
+                
                 alt="blog_mr_halley"
               />
               <h2>{article.title}</h2><hr/>
