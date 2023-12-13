@@ -1,0 +1,73 @@
+.navigation{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background-color: rgba(69, 24, 112, 0.281);
+    border-bottom: 1px solid rgb(218, 96, 218);
+    border-bottom: 1px solid rgba(225, 0, 255, 0.336);
+    backdrop-filter: blur(20px);
+    z-index: 4000;
+    gap: 40px;
+}
+.navigation a{
+    text-decoration: none; 
+
+}
+.navigation2 a{
+    text-decoration: none; 
+
+}
+.navigation2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(218, 96, 218, 0.192);
+    list-style: none;
+    gap: 35px;
+    padding: 10px;
+    color: rgb(169, 142, 194);
+    font-size: 1.5em;
+}
+
+.toro_grande{
+  width: 200px;
+}
+.toro_grande img{
+  width: 200px;
+}
+.nota{
+    color: rgb(202, 84, 84);
+}
+
+@media(max-width:1200px){
+    .navigation2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(218, 96, 218, 0.192);
+        list-style: none;
+        gap: 30px;
+        font-size: 1em;
+        padding: 15px;
+    }
+    .logo{
+      width: 100px;
+      height: auto;        
+    }
+
+    .navigation{
+        font-size: .9em;
+        gap: 20px;
+    }
+ 
+        }
+
+
+
