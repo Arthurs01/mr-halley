@@ -48,6 +48,7 @@ export default function Home() {
                 height={185}        
                 priority={true}        
                 alt="blog_mr_halley"
+                responsive
               />
               <h2>{article.title}</h2><hr/>
               <p>{article.body}</p>
