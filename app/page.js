@@ -57,7 +57,7 @@ export default function Home() {
       <div className={styles.main_section}>
         {blog.map((article) => (
           <article key={article.id} className={styles.article}>
-            <a className={styles.td_flex}>
+            <a href="/" className={styles.td_flex}>
               <Image
                 src={`/public/${article.image}`}
                 width={300}
