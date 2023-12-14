@@ -3,11 +3,12 @@ import styles from "./page.module.css";
 
 
 
+
 export default function Home() {
   const blog = [
     {
       id: 1,
-      image: '../public/imgs/events.png',
+      image: '../../imgs/events.png',
       title: "Próximos eventos",
       body: "Enterate de los próximos eventos al instante!",
       body_content:"Múasdfaasdfasdfasdfasdfsdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfsica versátil a tu alcance"
@@ -22,7 +23,7 @@ export default function Home() {
 
     {
       id: 3,
-      image: "../public/imgs/historia.png",
+      image: "../../public/imgs/historia.png",
       title: "Historia",
       body: "La banda versatil comienza en los años 50's al...",
       body_content:"Múasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfsica versátil a tu alcance"
