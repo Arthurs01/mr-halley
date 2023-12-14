@@ -11,6 +11,7 @@
   gap: 30px;
   color: white;
   flex-wrap: wrap;
+  font-size: 1.5em;
 }
 .header_content::before {
   position: absolute;
@@ -24,7 +25,8 @@
   
 }
 .header_text {
-  background-color: rgba(22, 8, 36, 0.281);
+  /* background-color: rgba(18, 6, 29, 0.281); */
+  background-color: rgba(69, 24, 112, 0.281);
   border-bottom: 1px solid rgb(218, 96, 218);
   border-bottom: 1px solid rgba(225, 0, 255, 0.336);
   backdrop-filter: blur(10px);
@@ -39,6 +41,7 @@
 
 .header_img {
   border-radius: 10px;
+  /* background-color: rgba(69, 24, 112, 0.281); */
   background-color: rgba(69, 24, 112, 0.281);
   border-bottom: 1px solid rgb(218, 96, 218);
   border-bottom: 1px solid rgba(225, 0, 255, 0.336);
@@ -47,6 +50,23 @@
   z-index: 3000;
   text-align: end;
   width: 33%;
+}
+.toro_grande {
+  width: 400px;
+  height: auto;
+  opacity: .8;
+  text-align: center;
+}
+@media(max-width:1500px){
+  .header_img{
+    width: 100%;
+  }
+  .toro_grande {
+    width: 200px;
+    height: auto;
+    opacity: .7;
+    text-align: center;
+  }
 }
 @media(max-width:720px){
   .header_content {
@@ -61,12 +81,13 @@
     flex-wrap: wrap;
     gap: 25px;    
     color: white;  
+    font-size: 1em;
   
   
   }
   
   .header_text {
-    margin-top: 60px;    
+    margin-top: 80px;    
     background-color: rgba(22, 8, 36, 0.281);
     border-bottom: 1px solid rgb(218, 96, 218);
     border-bottom: 1px solid rgba(225, 0, 255, 0.336);
@@ -97,10 +118,5 @@
   }
 }
 
-@media(max-width:1200px){
-
-
- 
-      }
 
 

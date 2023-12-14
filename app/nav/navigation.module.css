@@ -1,3 +1,4 @@
+
 .navigation{
     position: fixed;
     width: 100%;
@@ -12,7 +13,11 @@
     border-bottom: 1px solid rgba(225, 0, 255, 0.336);
     backdrop-filter: blur(20px);
     z-index: 4000;
-    gap: 40px;
+    gap: 30px;
+}
+.nav_flex{
+    display: flex;
+    justify-content: space-around;
 }
 .navigation a{
     text-decoration: none; 
@@ -35,6 +40,34 @@
     font-size: 1.5em;
 }
 
+.torox{
+    z-index: 5000;
+    position: fixed;
+    right: 50px;
+    margin-top: 10px;
+}
+.login{
+    z-index: 4000;
+    position: fixed;
+    right: 100px;
+    top: 9px;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: rgba(69, 24, 112, 0.281);
+    border-bottom: 1px solid rgb(218, 96, 218);
+    border-bottom: 1px solid rgba(225, 0, 255, 0.336);
+    backdrop-filter: blur(20px);
+    border-radius: 999px;
+    padding:10px;
+    font-size: .9em;
+    
+    
+}
+
+
 .toro_grande{
   width: 200px;
 }
@@ -44,7 +77,45 @@
 .nota{
     color: rgb(202, 84, 84);
 }
-
+@media(max-width:1050px){
+    .login{
+        top: 5px;
+        right: 10px;
+        background-color: rgba(69, 24, 112, 0.281);
+        border-bottom: 1px solid rgb(218, 96, 218);
+        border-bottom: 1px solid rgba(225, 0, 255, 0.336);
+        backdrop-filter: blur(20px);
+        border-radius: 999px;
+        padding:10px;
+        padding-bottom: 5px;
+        
+    }
+    .toro_grande{
+        opacity: .5;
+    }
+    .torox{
+        z-index: 5000;
+        position: fixed;
+        right: 20px;
+        margin-top: 10px;
+    }
+    .navigation{
+        position: fixed;
+        width: 100%;
+        top: 40px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        background-color: rgba(69, 24, 112, 0.281);
+        border-bottom: 1px solid rgb(218, 96, 218);
+        border-bottom: 1px solid rgba(225, 0, 255, 0.336);
+        backdrop-filter: blur(20px);
+        z-index: 4000;
+        gap: 30px;
+    }
+}
 @media(max-width:1200px){
     .navigation2{
         width: 100%;

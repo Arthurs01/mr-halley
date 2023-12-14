@@ -31,12 +31,12 @@ export default function Home() {
     <main>
       <div className={styles.social}>
       {/* <a href="https://wa.me/526624515925?text=Contactar%20con%20un%20asesor" class="btn btn-outline-success mt-4"><i class='bx bxl-whatsapp bx-md'></i></a> */}
-      <a href="https://wa.me/526622284871?text=Contactar%20con%20un%20asesor" class="btn btn-outline-success mt-4"><i class='bx bxl-whatsapp bx-md'></i></a>
+      <a href="https://wa.me/526622284871?text=Contactar%20con%20un%20asesor"target="blank" class="btn btn-outline-success mt-4"><i class='bx bxl-whatsapp bx-md'></i></a>
       <a href="https://www.facebook.com/profile.php?id=100065193623135" target="blank" class="btn btn-outline-primary mt-4"><i class='bx bxl-facebook-square bx-md'></i></a>
-      <a href="#" class="btn btn-outline-secondary mt-4"><i class='bx bx-user bx-md'></i></a>
+     
        
       </div>
-      <div className={styles.main_section}>
+      <div id="main_section" className={styles.main_section}>
         {blog.map((article) => (
           <article key={article.id} className={styles.article}>
             <a href="/" className={styles.td_flex}>

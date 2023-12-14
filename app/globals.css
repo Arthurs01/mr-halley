@@ -14,12 +14,14 @@ body {
 
 body {
   background-color: black;
-  color: rgb(171, 65, 190);
-  
+  color: rgb(171, 65, 190);  
 } 
 
 a{
   text-decoration: none;
+}
+a:hover{
+  opacity: .7;
 }
 li{
   list-style: none;

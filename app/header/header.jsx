@@ -12,7 +12,7 @@ export default function Header() {
           <hr/>
           
           <p>Lo mejor de la música {"80's"}, Rock en ingles, español
-             y éxitos de la decada!</p>
+             y éxitos de la década!</p>
           <a className="btn btn-outline-primary bg-primary-subtle text-primary-emphasis">Saber más</a>
         </div>
         <div className={styles.toro_grande}>
@@ -22,8 +22,8 @@ export default function Header() {
         <div className={styles.header_img}>
           <h2>Cotiza tu evento</h2><hr/>
           <p>
-            Haz de tu evento todo un espectaculo y se parte de la
-            experiencia con Mr halley
+            Haz de tu evento todo un espectáculo y se parte de la
+            experiencia Mr. halley
           </p>
           <button class="btn btn-outline-primary bg-primary-subtle text-primary-emphasis">Cotizar</button>
         </div>

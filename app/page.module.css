@@ -16,12 +16,12 @@
 
 .main_section{
   width: 100%;
-  display: flex;
-  
+  display: flex;  
   justify-content: center;
   align-items: center;
   margin-top: 100px; 
   gap: 30px;
+  font-size: 1.2em;
    
 }
 .article{
@@ -67,13 +67,14 @@
 
 
 
-@media(max-width:1200px){
+@media(max-width:720px){
   .main_section{    
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     margin-top: 250px;
+    font-size: 1em;
     
     
   }
