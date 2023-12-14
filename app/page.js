@@ -1,8 +1,8 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 
-
 export default function Home() {
+
   const blog = [
     {
       id: 1,
@@ -30,12 +30,10 @@ export default function Home() {
   return (
     <main>
       <div className={styles.social}>
-        <a className="p-3 text-success-emphasis bg-success-subtle border border-success-subtle rounded-3">
-          Whatsapp
-        </a>        
-        <a className="p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3">
-          Facebook
-        </a>
+      {/* <a href="https://wa.me/526624515925?text=Contactar%20con%20un%20asesor" class="btn btn-outline-success mt-4"><i class='bx bxl-whatsapp bx-md'></i></a> */}
+      <a href="https://wa.me/526622284871?text=Contactar%20con%20un%20asesor" class="btn btn-outline-success mt-4"><i class='bx bxl-whatsapp bx-md'></i></a>
+      <a href="https://www.facebook.com/profile.php?id=100065193623135" target="blank" class="btn btn-outline-primary mt-4"><i class='bx bxl-facebook-square bx-md'></i></a>
+      <a href="#" class="btn btn-outline-secondary mt-4"><i class='bx bx-user bx-md'></i></a>
        
       </div>
       <div className={styles.main_section}>
@@ -47,8 +45,7 @@ export default function Home() {
                 height={185}        
                 priority={true}        
                 alt="blog_mr_halley"
-                layout="responsive"
-                
+                layout="responsive"                
               />
               <h2>{article.title}</h2><hr/>
               <p>{article.body}</p>
