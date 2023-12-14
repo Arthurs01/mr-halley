@@ -2,14 +2,12 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 
-
-
-
 export default function Home() {
   const blog = [
     {
       id: 1,
-      image: '../../imgs/events.png',
+      image: '../../imgs/events.png', altText:'Próximos eventos',
+     width:100,
       title: "Próximos eventos",
       body: "Enterate de los próximos eventos al instante!",
       body_content:"Múasdfaasdfasdfasdfasdfsdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfsica versátil a tu alcance"
@@ -17,6 +15,7 @@ export default function Home() {
     {
       id: 2,
       image: "../public/imgs/videos.png",
+      width:100,
       title: "Videos",
       body: "Música versátil a tu alcance",
       body_content:"Múasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfsica versátil a tu alcance"
@@ -25,6 +24,7 @@ export default function Home() {
     {
       id: 3,
       image: "../../public/imgs/historia.png",
+      width:100,
       title: "Historia",
       body: "La banda versatil comienza en los años 50's al...",
       body_content:"Múasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfsica versátil a tu alcance"
@@ -45,11 +45,12 @@ export default function Home() {
         {blog.map((article) => (
           <article key={article.id} className={styles.article}>
             <a href="/" className={styles.td_flex}>
-              <Image src={`/public/imgs/${article.image}`} width={300}
+              <Image src={`/public/imgs/${article.image}`} width={article.width}
                 height={185}        
                 priority={true}        
                 alt="blog_mr_halley"
                 layout="responsive"
+                
               />
               <h2>{article.title}</h2><hr/>
               <p>{article.body}</p>
