@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import asdf from '../'
 
 
 
@@ -23,7 +24,7 @@ export default function Home() {
 
     {
       id: 3,
-      image: "./imgs/historia.png",
+      image: "../../public/imgs/historia.png",
       title: "Historia",
       body: "La banda versatil comienza en los años 50's al...",
       body_content:"Múasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfsica versátil a tu alcance"
