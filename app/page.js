@@ -31,8 +31,8 @@ export default function Home() {
     <main>
       <div className={styles.social}>
       {/* <a href="https://wa.me/526624515925?text=Contactar%20con%20un%20asesor" class="btn btn-outline-success mt-4"><i class='bx bxl-whatsapp bx-md'></i></a> */}
-      <a href="https://wa.me/526622284871?text=Contactar%20con%20un%20asesor"target="blank" class="btn btn-outline-success mt-4"><i class='bx bxl-whatsapp bx-md'></i></a>
-      <a href="https://www.facebook.com/profile.php?id=100065193623135" target="blank" class="btn btn-outline-primary mt-4"><i class='bx bxl-facebook-square bx-md'></i></a>
+      <a href="https://wa.me/526622284871?text=Contactar%20con%20un%20asesor"target="blank" class="text-secondary"><i class='bx bxl-whatsapp bx-lg'></i></a>
+      <a href="https://www.facebook.com/profile.php?id=100065193623135" target="blank" class="text-primary"><i class='bx bxl-facebook-square bx-lg'></i></a>
      
        
       </div>
@@ -47,7 +47,7 @@ export default function Home() {
                 alt="blog_mr_halley"
                 layout="responsive"                
               />
-              <h2>{article.title}</h2><hr/>
+              <h2>{article.title}</h2>
               <p>{article.body}</p>
             </a>
           </article>

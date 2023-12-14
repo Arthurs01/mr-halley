@@ -9,9 +9,13 @@
   justify-content: center;
   align-items: center;
   gap: 30px;
-  color: white;
+  color: rgb(161, 161, 161);
   flex-wrap: wrap;
-  font-size: 1.5em;
+  font-size: 1.4em;
+}
+.header_content h1, .header_content h2{
+  color:aqua;
+
 }
 .header_content::before {
   position: absolute;
@@ -60,6 +64,11 @@
 @media(max-width:1500px){
   .header_img{
     width: 100%;
+  }
+  .header_text{
+    width: 50%;
+    background-color: none;
+    margin-top: 20px;
   }
   .toro_grande {
     width: 200px;

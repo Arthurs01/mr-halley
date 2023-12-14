@@ -17,8 +17,8 @@ export default function Navigation() {
        
       </nav>
       <div className={styles.login}>
-         <li><a href="https://wa.me/526622284871?text=Contactar%20con%20un%20asesor"target="blank" class="">&nbsp;Phone<i class="bx bx-phone bx-sm"></i></a></li>
-         <li><a href="#" class="">&nbsp;Login<i class="bx bx-user bx-sm"></i></a></li>
+         <li><a href="#" class="">Login&nbsp;<i class="bx bx-user bx-sm"></i></a></li>
+         <li><a href="https://wa.me/526622284871?text=Contactar%20con%20un%20asesor"target="blank" class=""><i class="bx bx-phone bx-sm"></i></a></li>
       </div>
     </div>
   );

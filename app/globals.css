@@ -11,6 +11,9 @@ body {
   /* overflow-x: hidden; */
   
 }
+hr{
+  color: rgb(149, 71, 223);
+}
 
 body {
   background-color: black;

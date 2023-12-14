@@ -79,15 +79,16 @@
 }
 @media(max-width:1050px){
     .login{
-        top: 5px;
-        right: 10px;
+        top: 0;
+        right: 0;
         background-color: rgba(69, 24, 112, 0.281);
         border-bottom: 1px solid rgb(218, 96, 218);
         border-bottom: 1px solid rgba(225, 0, 255, 0.336);
         backdrop-filter: blur(20px);
         border-radius: 999px;
-        padding:10px;
+        padding:10px;   
         padding-bottom: 5px;
+        font-size: .8em;
         
     }
     .toro_grande{
