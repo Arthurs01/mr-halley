@@ -23,7 +23,7 @@ export default function Home() {
 
     {
       id: 3,
-      image: "../../public/imgs/historia.png",
+      image: "./imgs/historia.png",
       title: "Historia",
       body: "La banda versatil comienza en los años 50's al...",
       body_content:"Múasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfsica versátil a tu alcance"
